@@ -24,8 +24,8 @@ body::after {
   content: ' ';
   opacity: 0.5;
   width: 100%;
-  height: 100%;
-  background-image: url("https://corbetschool.net/wp-content/uploads/2019/04/The-Duke-of-Edinburghs-Award-169-2400x1340-Academy.jpg");
+  height: 100vh;
+  background-image: url("dofe-background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
