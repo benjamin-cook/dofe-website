@@ -16,13 +16,14 @@ h1 {
 body {
   position: relative;
 }
+
 body::after {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
   content: ' ';
-  opacity: 0.5;
+  opacity: 0.3;
   width: 100%;
   height: 100vh;
   background-image: url("dofe-background.png");
