@@ -31,3 +31,12 @@ body::after {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+input [type="checkbox"] {
+  background-color: black;
+}
+
+.centered {
+  text-decoration: underline;
+  text-align: center;
+}
