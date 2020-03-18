@@ -40,3 +40,39 @@ input [type="checkbox"] {
   text-decoration: underline;
   text-align: center;
 }
+
+.middle {
+  display: flex;
+  justify-content: space-around;
+}
+
+#card1:hover{
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+#card2:hover{
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+#card3:hover{
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+#card4:hover{
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.cardlink{
+  color:inherit;
+}
+
+.cardlink:visited{
+  color:inherit;
+}
+.cardlink:hover{
+  color:inherit;
+}
