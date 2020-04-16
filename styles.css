@@ -25,33 +25,18 @@ input [type="checkbox"] {
   text-decoration: underline;
 }
 
-.middle {
+.middle-cards {
   display: flex;
   justify-content: space-around;
 }
-
-#card1:hover{
-  transform: scale(1.1);
-  transition: 2s;
+.middle-cards .card {
+  width: 18rem;
 }
 
-#card2:hover{
-  transform: scale(1.1);
-  transition: 2s;
-}
-
-#card3:hover{
-  transform: scale(1.1);
-  transition: 2s;
-}
-
-#card4:hover{
-  transform: scale(1.1);
-  transition: 2s;
-}
 
 .cardlink{
   color:inherit;
+  transition: 2s;
 }
 
 .cardlink:visited{
